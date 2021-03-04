@@ -24,10 +24,6 @@ function setup() {
 	
 	bob5=new bob(400,400,(30-20)/2,circle);
 roof1 = new roof(250,100,500,10);
-rope1 = new rope(bob1.body,roof1.body,-bobDiameter*2,0);
-rope2 = new rope(bob2.body,roof1.body,-bobDiameter*2,0);
-rope4 = new rope(bob4.body,roof1.body,-bobDiameter*2,0);
-rope5 = new rope(bob5.body,roof1.body,-bobDiameter*2,0);
 
   
 }
